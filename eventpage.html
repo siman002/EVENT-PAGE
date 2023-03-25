@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event Registration Page</title>
+	<style>
+		/* CSS code for styling the page */
+		body {
+			background-color: #F5F5F5;
+			font-family: Arial, sans-serif;
+		}
+
+		header {
+			background-color: #003366;
+			color: white;
+			padding: 10px;
+		}
+
+		h1 {
+			font-size: 36px;
+			margin: 0;
+		}
+
+		nav {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 10px;
+			background-color: #E5E5E5;
+			border-bottom: 1px solid #CCCCCC;
+		}
+
+		nav a {
+			color: #333333;
+			text-decoration: none;
+			font-weight: bold;
+			margin-right: 20px;
+			font-size: 18px;
+		}
+
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		.section {
+			margin-bottom: 40px;
+		}
+
+		h2 {
+			font-size: 28px;
+			margin: 0 0 20px;
+		}
+
+		.section p {
+			font-size: 16px;
+			line-height: 1.5;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Excel's Ship</h1>
+		<p>Key speakers, schedule, events, and more!</p>
+	</header>
+
+	<nav>
+		<a href="#registration">Registration</a>
+		<a href="#speakers">Speakers</a>
+		<a href="#schedule">Schedule</a>
+		<a href="#events">Events</a>
+		
+	</nav>
+
+	<div class="container">
+		<section class="section" id="speakers">
+			<h2>Key Speakers</h2>
+			<p>Speaker 1 Dr Simerjeet Singh</p>
+			<p>Speaker 2 Shiv khera</p>
+			<p>Speaker 3 Amit joshi</p>
+		</section>
+
+		<section class="section" id="schedule">
+			<h2>Schedule</h2>
+			<p>Day 1: <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chief Guest Speech <br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seminar <br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Discussions</p>
+			<p>Day 2: <br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chief Guest Speech <br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Workshop <br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Discussions</p>
+			<p>Day 3: <br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chief Guest Speech <br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Meeting <br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Closing Ceremony</p>
+		</section>
+
+		<section class="section" id="events">
+			<h2>Events</h2>
+			<p>Event 1 Seminar</p>
+			<p>Event 2 Workshop</p>
+			<p>Event 3 Team Meeting</p>
+		</section>
+
+		<section class="section" id="registration">
+			<h2>Registration</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="phone">Phone:</label>
+				<input type="tel" id="phone" name="phone" required>
+
+				<label for="event">Event:</label>
+				<select id="event" name="event" required>
+					<option value="">Select an event</option>
+					<option value="event1">Event 1</option>
+                </body>
